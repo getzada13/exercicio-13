@@ -1,0 +1,135 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio</title>
+        <link rel="stylesheet" href="lib/bootstrap.min.css">
+        <style>
+            .nav-link {
+                text-align: center;
+            }
+
+            header{
+                position: sticky;
+                top: 0;
+                left: 0;
+                background-color: #fff;
+            }
+
+            .card-img-overlay {
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="navbar navbar-expand-lg">
+                <div class="container">
+                    <h1>Titulo do site</h1>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                        <ul class="nav navbar-nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#produtos">Produtos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Promoçoes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                </div>
+        </header>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="images/children-593313_1280.jpg" />
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="images/office-620822_1280.jpg" />
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="images/student-849825_1280.jpg" />
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 id="produtos">Produtos</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card text-bg-dark"> 
+                    <img src="images/drone-8188144_640.jpg"/>
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtitulo do card</h5>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus dicta in mollitia iste magnam, tempore nemo numquam quaerat quis, minus consequatur? Error quidem saepe, ducimus aut commodi delectus harum quibusdam.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, velit perspiciatis mollitia praesentium aspernatur illo minus. Numquam, ratione dolore sed quia excepturi 
+                        </p>
+                        <a href="#" class="btn btn-primary">Clique aqui</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card text-bg-dark"> 
+                    <img src="images/drone-8188144_640.jpg"/>
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtitulo do card</h5>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus dicta in mollitia iste magnam, tempore nemo numquam quaerat quis, minus consequatur? Error quidem saepe, ducimus aut commodi delectus harum quibusdam.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, velit perspiciatis mollitia praesentium aspernatur illo minus. Numquam, ratione dolore sed quia excepturi 
+                        </p>
+                        <a href="#" class="btn btn-primary">Clique aqui</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card text-bg-dark"> 
+                    <img src="images/drone-8188144_640.jpg"/>
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtitulo do card</h5>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus dicta in mollitia iste magnam, tempore nemo numquam quaerat quis, minus consequatur? Error quidem saepe, ducimus aut commodi delectus harum quibusdam.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, velit perspiciatis mollitia praesentium aspernatur illo minus. Numquam, ratione dolore sed quia excepturi 
+                        </p>
+                        <a href="#" class="btn btn-primary">Clique aqui</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="lib/bootsrap.bundle.min.js"></script>
+    </body>
+    </html>
